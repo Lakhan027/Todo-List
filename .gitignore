@@ -1,0 +1,10 @@
+# Ignore node_modules from both folders
+frontend/node_modules/
+reauth/node_modules/
+
+# Ignore environment files
+*reauth/.env
+
+# Ignore build/output folders
+frontend/dist/
+reauth/dist/

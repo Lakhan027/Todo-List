@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///home/lakhan/Full_Stack/NodeJS/ProjectsNode/FullyProject/frontend/src/app/page.js"],"sourcesContent":["import { useRouter } from 'next/router';\n\nexport default function HomePage() {\n  const router = useRouter();\n\n  const goToRegister = () => {\n    router.push('/register'); // navigate to /register\n  };\n\n  return (\n    <div style={{ textAlign: 'center', marginTop: '50px' }}>\n      <h1>Welcome to My App</h1>\n      <button\n        onClick={goToRegister}\n        style={{\n          padding: '10px 20px',\n          fontSize: '16px',\n          cursor: 'pointer',\n          marginTop: '20px',\n        }}\n      >\n        Go to Registration\n      </button>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,MAAM,SAAS,CAAA,GAAA,8HAAA,CAAA,YAAS,AAAD;IAEvB,MAAM,eAAe;QACnB,OAAO,IAAI,CAAC,cAAc,wBAAwB;IACpD;IAEA,qBACE,8OAAC;QAAI,OAAO;YAAE,WAAW;YAAU,WAAW;QAAO;;0BACnD,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;gBACC,SAAS;gBACT,OAAO;oBACL,SAAS;oBACT,UAAU;oBACV,QAAQ;oBACR,WAAW;gBACb;0BACD;;;;;;;;;;;;AAKP","debugId":null}}]
+}
